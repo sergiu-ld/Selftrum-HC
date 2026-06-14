@@ -1,0 +1,27 @@
+{
+  "printer": {
+    "enabled": false,
+    "type": "network",
+    "name": "ZX-Printer",
+    "ip": "192.168.1.100",
+    "port": 9100,
+    "protocol": "raw",
+    "paper_size": "A4",
+    "orientation": "landscape",
+    "dpi": 300,
+    "copies": 1,
+    "color_mode": "color",
+    "fit_to_page": true
+  },
+  "network": {
+    "proxy_enabled": false,
+    "proxy_host": "",
+    "proxy_port": 8080,
+    "timeout_seconds": 30,
+    "wifi_name": "",
+    "static_ip": false,
+    "ip_address": "",
+    "gateway": "",
+    "dns": "8.8.8.8"
+  }
+}

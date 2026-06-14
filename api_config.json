@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "api_key": "AIzaSyAFR-DA8AoiA5nwFFzQzQEm_4MD1B52eF4",
+  "model": "gemini-2.5-flash",
+  "timeout_seconds": 45,
+
+  "normal_prompt": "Lightly enhance this photo while keeping it natural, realistic and true to life. Keep real skin tones and the face clearly recognizable. Do NOT stylize, cartoonify or change colors — only subtle cleanup, sharpening and balanced lighting.",
+
+  "bw_prompt": "Convert this photo into a high contrast black and white image. Pure blacks and whites with dramatic shadows, like a bold ink drawing or stark engraving. No color, no mid grays.",
+
+  "eightbit_prompt": "Transform this photo into vibrant retro 8-bit pixel art in the style of a 1980s ZX Spectrum home computer. Bold saturated primary colors, blocky pixelated look, a small bright palette, high energy and graphic. Keep the face clearly recognizable.",
+
+  "fallback_to_local": true,
+  "_comment": "Three styles map to these prompts: NORMAL=normal_prompt, BLACK & WHITE=bw_prompt, 8 BIT=eightbit_prompt. Gemini key: https://aistudio.google.com/apikey"
+}
