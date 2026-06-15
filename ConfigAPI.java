@@ -18,7 +18,7 @@ public class ConfigAPI {
 
   public boolean enabled = true;
   public boolean fallbackToLocal = true;
-  public String apiKey = "AIzaSyAFR-DA8AoiA5nwFFzQzQEm_4MD1B52eF4";
+  public String apiKey = "your_API_KEY";
   public String model = "gemini-2.5-flash";
   public int timeout = 45;
 
